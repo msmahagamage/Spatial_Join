@@ -32,3 +32,35 @@ pandas	Store point data in tables
 geopandas	Do GIS operations
 shapely	Handle geometry math
 tqdm	Show progress
+
+START
+  |
+  v
+Load polygon shapefile
+  |
+  v
+Find all .txt files
+  |
+  v
+Read each text file
+  |
+  v
+Extract coordinates & prediction
+  |
+  v
+Create point layer
+  |
+  v
+Match points to polygons (Spatial Join)
+  |
+  v
+Count 0s, 1s, and total
+  |
+  v
+Calculate ratio
+  |
+  v
+Save new shapefile
+  |
+  v
+END
